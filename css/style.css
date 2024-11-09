@@ -238,6 +238,31 @@ body {
   background-color: #d72378;
 }
 
+.testimonios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.comment-str {
+  width: 20%;
+}
+
+.comment-img {
+  width: 40%;
+}
+
 .footer-format {
   display: flex;
   flex-direction: column;
@@ -247,11 +272,11 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: end;
-  background-image: url("../../assets/bg-dwn.png");
-  background-size: contain;
+  background-image: url("../assets/bg-dwn.png");
+  background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
-  height: 650px;
+  height: 100%;
 }
 .subfooter-format .footer-izq {
   display: flex;

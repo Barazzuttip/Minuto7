@@ -7,11 +7,11 @@
     display: flex;
     justify-content: space-around;
     align-items: end;
-    background-image: url('../../assets/bg-dwn.png');
-    background-size: contain;
+    background-image: url('../assets/bg-dwn.png');
+    background-size: cover;
     background-position: left bottom;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 100%;
    // width: 100%;
 
     .footer-izq {
