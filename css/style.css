@@ -10,17 +10,7 @@ body {
 }
 
 .header-format {
-  background-image: url("../assets/header.png");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
   width: 100%;
-  /* .logo-cont {;
-       height: 100%;
-       width: 100%;
-       display: flex;
-       top: 0px;       
-   }*/
 }
 
 .logo {
@@ -32,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../assets/bg-upper.png");
+  background-image: url("../assets/bg-upper.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -60,7 +50,6 @@ body {
 }
 
 .sec1-2 {
-  margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -72,9 +61,10 @@ body {
 }
 
 .sec1-2-img {
-  width: 20%;
+  width: 12%;
   padding-left: 10px;
   padding-right: 10px;
+  margin: 0;
 }
 
 .h1-txt {
@@ -224,7 +214,7 @@ body {
 }
 
 .sec2 {
-  background-image: url("../../assets/sec2bg7.png");
+  background-image: url("../assets/sec2bg7.png");
   background-size: cover;
   margin: 0;
   width: 100%;

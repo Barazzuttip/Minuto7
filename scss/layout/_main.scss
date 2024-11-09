@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../../assets/bg-upper.png');
+    background-image: url('../assets/bg-upper.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@
 }
 
 .sec1-2{
-    margin-top: 20px;
+    //margin-top: 10px;
     display: flex;
     justify-content: space-around;
     
@@ -43,9 +43,11 @@
     box-shadow: 0 4px 12px #000;
 }
 .sec1-2-img {
-    width: 20%;
+    width: 12%;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0;
+    
 
 }
 
@@ -217,7 +219,7 @@
 
 
 .sec2 {
-    background-image: url('../../assets/sec2bg7.png');
+    background-image: url('../assets/sec2bg7.png');
     background-size: cover;
     margin: 0;
     width: 100%;
