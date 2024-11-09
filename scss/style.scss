@@ -1,4 +1,12 @@
 @import 'base/reset';
 
+@import 'mq/mq';
+
 @import 'layout/header';
 @import 'layout/main';
+@import 'layout/footer';
+
+@import 'animation/keyframes';
+
+@import 'components/cards';
+@import 'components/accordion';

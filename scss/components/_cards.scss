@@ -1,0 +1,170 @@
+.card-div {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color:rgba($color: #D72378, $alpha: 0.5);
+    height: 400px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100%;
+    //background-color: rgba($color: #D72378, $alpha: 0.5);
+    // border-radius: 18px;
+    // margin: 15px;
+    //   box-shadow: 
+    //  4px 4px 8px #706F6F,
+    // -4px 4px 8px #706F6F;
+    //4px -4px 16px #706F6F,
+    //-4px -4px 16px #706F6F;
+
+    .card {
+        width: 50%;
+        margin-right: 15px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        border-color: #706F6F;
+        //background-image: linear-gradient(to bottom, #D72378, #ffffff);
+        align-items: center;
+        justify-content: start;
+        border-radius: 18px;
+        //margin: 0;
+        padding: 0;
+        //box-shadow: 0px 4px 16px #000000;
+        // overflow: hidden;
+        transition: transform 0.5s ease;
+
+        &:hover {
+            transform: translateY(-15px);
+            //box-shadow: 0px 16px 16px #000000;
+        
+        }
+
+    }
+
+}
+
+.servicio {
+    font-family: 'Balthazar', sans-serif;
+    text-align: center;
+    color: #706F6F;
+
+}
+
+.precio {
+    color: #fff;
+    background-color:rgba($color: #D72378, $alpha: 0.7);
+    // box-shadow: 0 4px 12px #D72378;
+    border-radius: 10px;
+    // margin-left: 15px;
+    // margin-right: 15px;
+    margin-top: 10px;
+    justify-self: center;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    //background-color: rgba($color: #D72378, $alpha: 0.5);
+}
+
+.card-img {
+    border-radius: 18px !important;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+    &:hover {
+        filter: grayscale(0%);
+    }
+}
+
+//&:hover{
+//height: 100%;
+// }
+
+.card-title {
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Bebas neue';
+    font-weight: 300;
+    color: #fff !important;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color:rgba($color: #D72378, $alpha: 0.7);
+    font-size: 40px;
+    // animation: LogoAnim 2s ease-in;
+}
+
+.card-txt {
+
+    font-family: 'Balthazar', sans-serif;
+    color: #262626;
+    font-size: 18px;
+    // height: 250px;
+    border-radius: 18px;
+    // background-image: url('../../assets/cardtext1.png');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // animation: LogoAnim 2s ease-in;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    list-style-type: none;
+    //text-align: center;
+    padding: 0px;
+    .li-txt {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+        color: #D72378;
+        padding-left: 10px;
+        // box-shadow: inset 0 0 8px #D72378;
+        // border-radius: 6px;
+        // margin-left: 5px;
+        // margin-right: 5px;
+        &::before {
+            //content: "\00A0\00A0";
+            color: #fff;
+        }
+    }
+}
+
+// .card-btn {
+//     width: fit-content;
+//     text-align: center;
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+//     background-color: transparent;
+//     padding: 5px;
+//     margin-bottom: 15px;
+//     margin-top: 10px;
+//     border: none;
+//     border-radius: 18px;
+//     box-shadow:
+//         4px 4px 12px #D72378,
+//         4px -4px 12px #D72378,
+//         -4px 4px 12px #D72378,
+//         -4px -4px 12px #D72378;
+// }
+
+.card-btn-link {
+    color: #D72378;
+    text-decoration: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    //background-color: rgba($color: #D72378, $alpha: 0.5);
+    border-radius: 18px;
+    box-shadow: 0 4px 8px #262626;
+    background-color: rgba($color: #fff, $alpha:0.2);
+    animation: CardAnim 1.25s ease;
+}

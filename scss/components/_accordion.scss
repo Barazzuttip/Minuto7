@@ -1,0 +1,36 @@
+.acc-img{
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.accordion-body {
+    max-height: 0;
+    //overflow: hidden !important;
+    //transition: max-height 0.4s ease !important; // Transición para animar el expandido
+
+    
+}
+.show {
+    max-height: 3050px !important; // Ajusta la altura según el contenido
+}   
+/*.accordion-body{
+    max-height: 0 !important;
+    overflow: hidden;
+    transition: max-height 2s ease, padding 0.3s ease;
+    padding: 0;
+}*/
+/*.accordion-body {
+    //display: none; // Ocultamos el contenido de los items
+    transition: display 0.5s ease !important;
+
+    &.show {
+        display: block !important; // Mostramos solo el item activo
+        padding: 15px; // Ajusta el padding según el diseño
+    }
+
+    &:hover {
+        background-color: aqua;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+}*/
