@@ -12,38 +12,47 @@ const packs = {
 const txtCards = [`<div class="card-body">
     <h2 class="card-title">Pack 1</h2>
     <ul class="card-txt">
+    <li class="precio">$18.000</li>
     <li class= "li-txt">Solo abdomen</li>
     <li class= "li-txt">8 clases al mes</li>
     <li class= "li-txt">Entrená en tu casa o gimnasio</li>
     <li class= "li-txt">Contacto exclusivo via wapp</li>
-    <li class="precio">$18.000</li>
-    </ul></div>`,
+    </ul>
+    <a href="https://wa.me/+5492914411003" target="_blank"><button class="btn-cta">Consultá por tu plan <img src="assets/click.png" alt="click btn"></button></a></div>`,
     `<div class="card-body"><h2 class="card-title">Pack 2</h2>
     <ul class="card-txt">
+    <li class="precio">$18.000</li>
     <li class= "li-txt">8 clases al mes </li>
     <li class= "li-txt">Entrená en tu casa o gimnasio</li>
     <li class= "li-txt">Contacto exclusivo via wapp</li>
-    <li class="precio">$18.000</li>`,
+    </ul>
+    <a href="https://wa.me/+5492914411003" target="_blank"><button class="btn-cta">Consultá por tu plan <img src="assets/click.png" alt="click btn"></button></a></div>`,
     `<div class="card-body"><h2 class="card-title">Pack 3</h2>
     <ul class="card-txt">
+    <li class="precio">$20.000</li>
     <li class= "li-txt">12 clases al mes </li>
     <li class= "li-txt">Entrená en tu casa o gimnasio</li>
     <li class= "li-txt">Contacto exclusivo via wapp</li>
-    <li class="precio">$20.000</li>`,
+    </ul>
+    <a href="https://wa.me/+5492914411003" target="_blank"><button class="btn-cta">Consultá por tu plan <img src="assets/click.png" alt="click btn"></button></a></div>`,
     `<div class="card-body"><h2 class="card-title">Pack 4</h2>
           <ul class="card-txt">
+    <li class="precio">$24.000</li>
     <li class= "li-txt">12 clases al mes </li>
     <li class= "li-txt">Entrená en tu casa o gimnasio</li>
     <li class= "li-txt">Plan de Running en PDF</li>
     <li class= "li-txt">Contacto exclusivo via wapp</li>
-    <li class="precio">$24.000</li>`,
+    </ul>
+    <a href="https://wa.me/+5492914411003" target="_blank"><button class="btn-cta">Consultá por tu plan <img src="assets/click.png" alt="click btn"></button></a></div>`,
     `<div class="card-body"><h2 class="card-title">Pack 5</h2>
           <ul class="card-txt">
+    <li class="precio">$18.000</li>
     <li class= "li-txt"> Gluteos - Abdomen - Piernas</li>
     <li class= "li-txt">12 clases al mes </li>
     <li class= "li-txt">Entrená en tu casa o gimnasio</li>
     <li class= "li-txt">Contacto exclusivo via wapp</li>
-    <li class="precio">$18.000</li>`];
+    </ul>
+    <a href="https://wa.me/+5492914411003" target="_blank"><button class="btn-cta">Consultá por tu plan <img src="assets/click.png" alt="click btn"></button></a></div>`];
 
 
 
