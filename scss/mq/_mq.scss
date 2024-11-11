@@ -1,3 +1,177 @@
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+    .header-format {
+        .logo-cont {
 
+            .logo-mob {
+                display: flex;
+                width: 100%;
+            }
+
+            .logo {
+                display: none;
+            }
+        }
+    }
+
+    .main-format {
+        // background-image: url('../assets/bg-upper-mob.png') !important;
+        background-image: none !important;
+        background-size: cover !important;
+        width: 100% !important;
+
+        .sec1 {
+            align-items: start;
+            margin-left: 15px;
+            margin-right: 15px;
+
+            .sec1-img {
+                display: none;
+            }
+
+            .sec1-txt {
+                margin: 0;
+            }
+        }
+
+        .sec1-2 {
+            .sec1-2-img {
+                display: none;
+            }
+
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    .card-div {
+        display: none;
+    }
+
+    .card-cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mob-cards-div {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        border-radius: 15px;
+
+        .mob-cards {
+            display: flex;
+            width: 80%;
+
+            // box-shadow:  4px 6px 6px #000;
+            img {
+                filter: brightness(0.5);
+
+                &:hover,
+                &:active {
+                    filter: brightness(1);
+                }
+
+                // border-radius: 12px;
+            }
+        }
+    }
+
+    .carousel-caption {
+        // position: absolute;
+        // top: 42%;
+        // left: 50%;
+        background-color: bisque;
+        height: fit-content;
+        width: fit-content;
+        justify-self: center;
+        // align-self: baseline;
+        padding: 5px !important;
+        border-radius: 12px;
+        font-size: 12px !important;
+        color: #D72378 !important;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 300;
+        border: none;
+        // border-color: rgba($color: #fff, $alpha: 1);
+        transform: translateY(14px);
+    }
+
+    .click-mob {
+        width: 20%;
+        margin: 0;
+        padding: 0;
+        filter: brightness(1) !important;
+    }
+
+    .carousel-indicators {
+        display: none !important;
+    }
+
+    .svcIco {
+        flex-direction: row !important;
+        width: 15% !important;
+
+        img {
+            margin-left: 29% !important;
+        }
+    }
+
+    .cerrar {
+        display: none;
+    }
+
+    .svcTxt {
+        margin: 0 !important;
+        margin-top: 20px !important;
+        // width: 100% !important;
+        // justify-content:start !important;
+        // position: absolute;
+        // left: 50%;
+    }
+
+    .card-cont {
+        width: 90% !important;
+        justify-content: center !important;
+        background-color: wheat !important;
+        // background-image: linear-gradient(to bottom, #808080, #262626);
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        // align-items: center;
+    }
+
+    .card-cont div:nth-child(3) {
+        align-self: center !important;
+    }
+
+    .card-body {
+        background-color: rgba($color: #808080, $alpha: 0.2) !important;
+    }
+
+    .svcImg {
+        display: none !important;
+    }
+
+    .sec2 {
+        display: none !important;
+    }
+
+    .sec2-mob {
+        display: flex !important;
+        background-image: url('../assets/sec2bg7.png');
+        background-size: cover;
+        margin: 0;
+        width: 100%;
+        // height: 1090px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comment {
+        width: 80% !important;
+        align-self: center;
+        justify-self: center;
+    }
 }

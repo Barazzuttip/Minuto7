@@ -6,7 +6,9 @@
 
     // height:fit-content;
 }
-
+.mob-cards-div {
+    display: none;
+}
 .cards {
     display: flex;
     justify-content: space-around;
@@ -54,7 +56,6 @@
     }
 
 }
-
 .servicio {
     font-family: 'Balthazar', sans-serif;
     text-align: center;
@@ -100,7 +101,7 @@
     text-align: center;
     font-family: 'Bebas neue';
     font-weight: 300;
-    color: #fff !important;
+    color: bisque !important;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     background-color: rgba($color: #D72378, $alpha: 0.7);
@@ -176,7 +177,7 @@
         color: rgba($color: #D72378, $alpha: 0.7);
 
         img {
-            content: url('../../assets/click-hov.png');
+            content: url('../assets/click-hov.png');
         }
 
         // border-radius: 10px;

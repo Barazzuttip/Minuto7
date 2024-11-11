@@ -10,6 +10,8 @@
   <!--Animation CDN-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+
+
   <!--FUENTES-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +49,8 @@
 <body>
   <header class="header-format">
     <div class="logo-cont">
-      <img class="logo" src="assets/header.png" alt="">
+      <img class="logo" src="assets/header.png" alt="Portada Minuto 7">
+      <img class="logo-mob" src="assets/header-mob.png" alt="Portada Minuto 7 - mobile">
     </div>
   </header>
   <main class="main-format">
@@ -65,15 +68,17 @@
             encuentres un espacio seguro. <br> Esta página es armada con el fin de informarte sobre nuestros
             servicios, a continuación vas a poder encontrar los diferentes tipos de planes. </p>
         </div>
-        <h2 class="h2-txt">¿Qué buscamos?</h2>
-        <p class="txt">Que tu camino de bienestar sea sostenible en el tiempo y disfrutable, por eso contamos con:</p>
+        <div class="div-txt">
+          <h2 class="h2-txt">¿Qué buscamos?</h2>
+          <p class="txt">Que tu camino de bienestar sea sostenible en el tiempo y disfrutable, por eso contamos con:</p>
+        </div>
 
       </div>
     </div>
 
     <section class="sec1-2">
       <div class="sec1-2-img animate__animated animate__backInLeft">
-        <img class="imgs1" src="assets/sec1-img.jpg" \ alt="Guille Minuto 7">
+        <img class="imgs1" src="assets/sec1-img.jpg" alt="Guille Minuto 7">
       </div>
       <div class="checks">
         <ul class="check-list">
@@ -118,6 +123,62 @@
       </div>
     </div>
 
+    <div class="mob-cards-div">
+      <div class="mob-cards">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="imgMob1" src="assets/banner0-bn.png" class="d-block w-100" alt="...">
+              <button id="pack1mob" class="carousel-caption"><img class="click-mob" src="assets/click-hov.png"
+                  alt="click btn">Ver Pack 1</button>
+            </div>
+            <div class="carousel-item">
+              <img id="imgMob2" src="assets/banner1-bn.png" class="d-block w-100" alt="...">
+              <button id="pack2mob" class="carousel-caption"><img class="click-mob" src="assets/click-hov.png"
+                  alt="click btn">Ver Pack 2</button>
+            </div>
+            <div class="carousel-item">
+              <img id="imgMob3" src="assets/banner2-bn.png" class="d-block w-100" alt="...">
+              <button id="pack3mob" class="carousel-caption"><img class="click-mob" src="assets/click-hov.png"
+                  alt="click btn">Ver Pack 3</button>
+            </div>
+            <div class="carousel-item">
+              <img id="imgMob4" src="assets/banner3-bn.png" class="d-block w-100" alt="...">
+              <button id="pack4mob" class="carousel-caption"><img class="click-mob" src="assets/click-hov.png"
+                  alt="click btn">Ver Pack 4</button>
+            </div>
+            <div class="carousel-item">
+              <img id="imgMob5" src="assets/banner4-bn.png" class="d-block w-100" alt="...">
+              <button id="pack5mob" class="carousel-caption"><img class="click-mob" src="assets/click-hov.png"
+                  alt="click btn">Ver Pack 5</button>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <div id="miModal" class="modal animate__animated animate__fadeIn">
@@ -126,7 +187,8 @@
     </div>
   </div>
   <div class="last-info">
-    <p class="sec2-txt">En todos los planes podés contratar además el servicio de nuestra nutricionisa para trabajar tu alimentación, o realizarte el estudio antropométrico 
+    <p class="sec2-txt">En todos los planes podés contratar además el servicio de nuestra nutricionisa para trabajar tu
+      alimentación, o realizarte el estudio antropométrico
     </p>
   </div>
 
@@ -136,12 +198,14 @@
       <div class="comment">
         <img class="comment-img" src="assets/prof1.png" alt="comentario - foto de perfil">
         <img class="comment-str" src="assets/stars.png" alt="stars ico">
-        <p class="comment-txt"><i>Es mi lugar, donde me siento plena y me supero cada día! Mis compas, amorosas, y mi profe, la mejor.</i></p>
+        <p class="comment-txt"><i>Es mi lugar, donde me siento plena y me supero cada día! Mis compas, amorosas, y mi
+            profe, la mejor.</i></p>
       </div>
       <div class="comment">
         <img class="comment-img" src="assets/prof2.png" alt="comentario - foto de perfil">
         <img class="comment-str" src="assets/stars.png" alt="stars ico">
-        <p class="comment-txt"><i>Logró que ame la actividad física, que intente mejorar, y además es un círculo de mujeres geniales, amigas.</i></p>
+        <p class="comment-txt"><i>Logró que ame la actividad física, que intente mejorar, y además es un círculo de
+            mujeres geniales, amigas.</i></p>
       </div>
       <div class="comment">
         <img class="comment-img" src="assets/prof3.png" alt="comentario - foto de perfil">
@@ -153,7 +217,8 @@
       <div class="comment">
         <img class="comment-img" src="assets/prof4.png" alt="comentario - foto de perfil">
         <img class="comment-str" src="assets/stars.png" alt="stars ico">
-        <p class="comment-txt"><i>Un lugar que transformó mi rutina de ejercicios y bienestar general. Desde el primer día me sentí bienvenida gracias al ambiente amable y motivador.</i></p>
+        <p class="comment-txt"><i>Un lugar que transformó mi rutina de ejercicios y bienestar general. Desde el primer
+            día me sentí bienvenida gracias al ambiente amable y motivador.</i></p>
       </div>
       <div class="comment">
         <img class="comment-img" src="assets/prof5.png" alt="comentario - foto de perfil">
@@ -168,10 +233,58 @@
     </div>
   </section>
 
+
+  <section class="sec2-mob">
+    <h3 class="h2-txt" style="color: bisque; margin-top: 70px;">Qué opinan nuestras alumnas</h3>
+
+    <div class="testimonios">
+      <div id="carouselExample2" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="comment">
+              <img class="comment-img" src="assets/prof1.png" alt="comentario - foto de perfil">
+              <img class="comment-str" src="assets/stars.png" alt="stars ico">
+              <p class="comment-txt"><i>Es mi lugar, donde me siento plena y me supero cada día! Mis compas, amorosas, y
+                  mi
+                  profe, la mejor.</i></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="comment">
+              <img class="comment-img" src="assets/prof2.png" alt="comentario - foto de perfil">
+              <img class="comment-str" src="assets/stars.png" alt="stars ico">
+              <p class="comment-txt"><i>Logró que ame la actividad física, que intente mejorar, y además es un círculo
+                  de
+                  mujeres geniales, amigas.</i></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="comment">
+              <img class="comment-img" src="assets/prof3.png" alt="comentario - foto de perfil">
+              <img class="comment-str" src="assets/stars.png" alt="stars ico">
+              <p class="comment-txt"><i>Me siento cómoda y me gusta ir porque es un gimnasio de mujeres.</i></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+
+
+  </section>
+
   <footer class="footer-format">
     <div class="subfooter-format">
       <div class="footer-izq">
-        <h3 class="titleh4" style="color: wheat;">Contactanos</h3>
+        <h3 class="titleh4">Contactanos</h3>
         <ul class="footer-txt">
           <li><img src="assets/social.png" alt="Instagram Minuto7"><a href="">Instagram</a></li>
           <!-- <li><img src="" alt="Email Minuto7"><a href="">Gmail</a></li>-->

@@ -58,7 +58,6 @@ const txtCards = [`<div class="card-body">
 
 
 const packtoJS = (n) => {
-
     modal.style.display = "flex";
     //div contenedor
     const div = document.createElement("div");
@@ -100,10 +99,11 @@ const packtoJS = (n) => {
     clonePack3.addEventListener("click", () => packtoJS(3));
     clonePack4.addEventListener("click", () => packtoJS(4));
     clonePack5.addEventListener("click", () => packtoJS(5));
-    // if (`clonePack${n}` == pack) {
-    //     //si esel mismo pack le agrego la clase show
-    //     `clonePack${n}`.classList.add("show");
-    // }
+    //Boton de cerrar
+    const btnCerrarNuevo = document.getElementById("btnCerrar");
+    btnCerrarNuevo.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
 
     // Añadir las imágenes clonadas al contenedor
     imgcont.append(clonePack1, clonePack2, clonePack3, clonePack4, clonePack5);
@@ -142,3 +142,20 @@ window.addEventListener("click", (event) => {
         });
     }
 });
+
+////////////////////
+///////MOBILE///////
+////////////////////
+
+const pack1mobBtn = document.getElementById("pack1mob");
+const pack2mobBtn = document.getElementById("pack2mob");
+const pack3mobBtn = document.getElementById("pack3mob");
+const pack4mobBtn = document.getElementById("pack4mob");
+const pack5mobBtn = document.getElementById("pack5mob");
+
+
+pack1mob.addEventListener("click", () => packtoJS(1));
+pack2mob.addEventListener("click", () => packtoJS(2));
+pack3mob.addEventListener("click", () => packtoJS(3));
+pack4mob.addEventListener("click", () => packtoJS(4));
+pack5mob.addEventListener("click", () => packtoJS(5));

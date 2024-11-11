@@ -53,6 +53,7 @@
 
 .h1-txt {
     color: transparent;
+    font-size: 1px;
 }
 
 .h2-txt {
@@ -140,10 +141,16 @@
 
 .cerrar {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 20%;
+    right: 26%;
     font-size: 20px;
     cursor: pointer;
+    color: #D72378;
+    font-size: 24px;
+    font-weight: 600;
+    &:hover {
+        color: #000;
+    }
 }
 
 .card-cont {
@@ -219,7 +226,9 @@
 }
 
 
-
+.sec2-mob {
+    display: none;
+}
 .sec2 {
     background-image: url('../assets/sec2bg7.png');
     background-size: cover;
@@ -242,7 +251,7 @@
     // border-radius: 15px;
     width: 100%;
     justify-self: center;
-    background-color: rgba($color: #D72378, $alpha: 1);
+    background-color: rgba($color: #D72378, $alpha:1);
 }
 .testimonios {
     display: flex;
