@@ -1,27 +1,31 @@
-.carousel-control-prev {
-    .carousel-control-prev-icon {
-        
-        background-color: rgba($color: #262626, $alpha:1);
-        box-shadow:
-        0 0 12px #fff,
-        0 0 8px #fff,
-        ;
-        border-radius: 12px;
-        margin-top: 200%;
-        margin-right: 40%;
+.testimonios {
+
+    .carousel-control-prev {
+        .carousel-control-prev-icon {
+
+            background-color: rgba($color: #262626, $alpha: 1);
+            box-shadow:
+                0 0 12px #fff,
+                0 0 8px #fff,
+            ;
+            border-radius: 12px;
+            margin-top: 200%;
+            margin-right: 40%;
+        }
     }
-}
-.carousel-control-next {
-    .carousel-control-next-icon {
-        background-color: rgba($color: #262626, $alpha:1);
-        box-shadow:
-        0 0 12px #fff,
-        0 0 8px #fff,
-        ;
-        border-radius: 8px;
-        margin-top: 200%;
-        margin-left: 40%;
-        
-        
+
+    .carousel-control-next {
+        .carousel-control-next-icon {
+            background-color: rgba($color: #262626, $alpha: 1);
+            box-shadow:
+                0 0 12px #fff,
+                0 0 8px #fff,
+            ;
+            border-radius: 8px;
+            margin-top: 200%;
+            margin-left: 40%;
+
+
+        }
     }
 }

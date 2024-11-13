@@ -57,13 +57,30 @@
         align-items: center;
         margin-bottom: 15px;
         border-radius: 15px;
+        .carousel-control-prev {
+            background-color: rgba($color: #D72378, $alpha: 0.7);
+            height: fit-content;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            top: 50%; /* Mueve el botón al centro vertical */
+            transform: translateY(-50%); /* Ajusta para centrar */
+        }
+
+        .carousel-control-next {
+            background-color: rgba($color: #D72378, $alpha: 0.7);
+            height: fit-content;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            top: 50%; /* Mueve el botón al centro vertical */
+            transform: translateY(-50%); /* Ajusta para centrar */
+        }
 
         .mob-cards {
             display: flex;
             width: 80%;
 
             img {
-                filter: brightness(0.5);
+                filter: brightness(1);
 
                 &:hover,
                 &:active {
@@ -155,6 +172,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .h2-txt {
         font-size: 32px !important;
     }
@@ -163,6 +181,7 @@
         width: 80% !important;
         align-self: center;
         justify-self: center;
+        height: 200px;
     }
 
     .footer-info-mob {
@@ -186,17 +205,21 @@
             margin-right: 5px;
 
         }
+
         margin: 20px !important;
     }
-    .footer-center{
+
+    .footer-center {
         align-items: center !important;
         justify-content: center !important;
         flex-direction: column;
+
         .titleh4 {
             font-size: 32px !important;
             text-align: center !important;
-            background-color: rgba($color: wheat, $alpha:0.8);
+            background-color: rgba($color: wheat, $alpha: 0.8);
         }
+
         .redes {
             img {
                 width: 50%;
@@ -204,8 +227,10 @@
             }
         }
     }
+
     .gmail {
-        display: flex ;
+        display: flex;
+
         img {
             display: flex !important;
         }
