@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../assets/bg-upper2.png');
+    background-image: url('../assets/bg-upper2.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -150,8 +150,8 @@
     width: 50%;
     border-radius: 15px;
     border: none;
-    justify-self: center;
-    background-color: rgba($color: #fff, $alpha: 1);
+    margin:0 auto ;
+    background-color: rgba($color: wheat, $alpha: 1);
     padding-top: 25px;
     padding-bottom: 25px;
 
@@ -215,7 +215,7 @@
     display: none;
 }
 .sec2 {
-    background-image: url('../assets/sec2bg7.png');
+    background-image: url('../assets/sec2bg7.webp');
     background-size: cover;
     margin: 0;
     width: 100%;
@@ -234,7 +234,6 @@
     padding: 10px;
     text-align: center;
     width: 100%;
-    justify-self: center;
     background-color: rgba($color: #D72378, $alpha:1);
 }
 .testimonios {
@@ -260,9 +259,9 @@
 .comment-img{
     width: 40%;
 }
-.gmail {
-    display: none;
-    img {
-        display: none;
-    }
-}
+// .gmail {
+//     display: none;
+//     img {
+//         display: none;
+//     }
+// }

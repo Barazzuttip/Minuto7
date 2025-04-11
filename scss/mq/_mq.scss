@@ -95,10 +95,11 @@
         background-color: bisque;
         height: fit-content;
         width: fit-content;
-        justify-self: center;
+        margin: 0 auto;
         padding: 5px !important;
         border-radius: 12px;
         font-size: 12px !important;
+
         color: #D72378 !important;
         font-family: "Be Vietnam Pro", sans-serif;
         font-weight: 300;
@@ -139,17 +140,17 @@
         width: 90% !important;
         justify-content: center !important;
         background-color: wheat !important;
-
         background-size: contain;
         background-repeat: no-repeat;
     }
 
     .card-cont div:nth-child(3) {
-        align-self: center !important;
+        margin: 0 auto !important;
     }
 
     .card-body {
         background-color: rgba($color: #808080, $alpha: 0.2) !important;
+        margin-top: 15px;
     }
 
     .svcImg {
@@ -162,7 +163,7 @@
 
     .sec2-mob {
         display: flex !important;
-        background-image: url('../assets/sec2bg7.png');
+        background-image: url('../assets/sec2bg7.webp');
         background-size: cover;
         margin: 0;
         height: 500px;
@@ -179,8 +180,7 @@
 
     .comment {
         width: 80% !important;
-        align-self: center;
-        justify-self: center;
+        margin: 0 auto;
         height: 200px;
     }
 

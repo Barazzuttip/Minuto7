@@ -36,7 +36,7 @@
         margin-left: 15px;
         display: flex;
         flex-direction: column;
-        border-color: #706F6F;
+        // border-color: #706F6F;
         //background-image: linear-gradient(to bottom, #D72378, #ffffff);
         align-items: center;
         justify-content: start;
@@ -66,20 +66,15 @@
 .precio {
     color: #fff;
     background-color: rgba($color: #D72378, $alpha: 0.7);
-    // box-shadow: 0 4px 12px #D72378;
     border-radius: 10px;
-    // margin-left: 15px;
-    // margin-right: 15px;
+    margin: 0 auto;
     margin-top: 10px;
-    // justify-self: center;
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Bebas neue', sans-serif;
     font-size: 36px;
     font-weight: 500;
-    // text-align: center;
-    //background-color: rgba($color: #D72378, $alpha: 0.5);
 }
 
 .card-img {
@@ -157,7 +152,6 @@
     margin-bottom: 15px;
     margin-top: 10px;
     border: none;
-    align-self: center;
 
     &:hover {
         background-color: bisque;

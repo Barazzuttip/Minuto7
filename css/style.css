@@ -84,7 +84,7 @@ body {
     background-color: bisque;
     height: fit-content;
     width: fit-content;
-    justify-self: center;
+    margin: 0 auto;
     padding: 5px !important;
     border-radius: 12px;
     font-size: 12px !important;
@@ -125,10 +125,11 @@ body {
     background-repeat: no-repeat;
   }
   .card-cont div:nth-child(3) {
-    align-self: center !important;
+    margin: 0 auto !important;
   }
   .card-body {
     background-color: rgba(128, 128, 128, 0.2) !important;
+    margin-top: 15px;
   }
   .svcImg {
     display: none !important;
@@ -138,7 +139,7 @@ body {
   }
   .sec2-mob {
     display: flex !important;
-    background-image: url("../assets/sec2bg7.png");
+    background-image: url("../assets/sec2bg7.webp");
     background-size: cover;
     margin: 0;
     height: 500px;
@@ -153,8 +154,7 @@ body {
   }
   .comment {
     width: 80% !important;
-    align-self: center;
-    justify-self: center;
+    margin: 0 auto;
     height: 200px;
   }
   .footer-info-mob {
@@ -215,7 +215,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../assets/bg-upper2.png");
+  background-image: url("../assets/bg-upper2.webp");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -358,8 +358,8 @@ body {
   width: 50%;
   border-radius: 15px;
   border: none;
-  justify-self: center;
-  background-color: white;
+  margin: 0 auto;
+  background-color: wheat;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -417,7 +417,7 @@ body {
 }
 
 .sec2 {
-  background-image: url("../assets/sec2bg7.png");
+  background-image: url("../assets/sec2bg7.webp");
   background-size: cover;
   margin: 0;
   width: 100%;
@@ -437,7 +437,6 @@ body {
   padding: 10px;
   text-align: center;
   width: 100%;
-  justify-self: center;
   background-color: #d72378;
 }
 
@@ -468,13 +467,6 @@ body {
   width: 40%;
 }
 
-.gmail {
-  display: none;
-}
-.gmail img {
-  display: none;
-}
-
 .footer-format {
   display: flex;
   flex-direction: column;
@@ -482,7 +474,7 @@ body {
 
 .subfooter-format {
   display: flex;
-  background-image: linear-gradient(to right, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 100%), url("../assets/footer-bg.jpg");
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 100%), url("../assets/footer-bg.webp");
   background-size: cover;
   background-position: center center;
   justify-content: space-between;
@@ -524,7 +516,6 @@ body {
   background-color: #262626;
   margin: 0;
   padding-top: 2px;
-  padding-bottom: 2px;
   color: aliceblue;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -549,6 +540,13 @@ body {
 .footer-info-mob a {
   text-decoration: none;
   color: #e98cb7;
+}
+
+.lastitem {
+  display: flex;
+  background-color: #262626;
+  justify-content: space-around;
+  height: fit-content;
 }
 
 .redes {
@@ -662,7 +660,6 @@ body {
   margin-left: 15px;
   display: flex;
   flex-direction: column;
-  border-color: #706F6F;
   align-items: center;
   justify-content: start;
   border-radius: 18px;
@@ -683,6 +680,7 @@ body {
   color: #fff;
   background-color: rgba(215, 35, 120, 0.7);
   border-radius: 10px;
+  margin: 0 auto;
   margin-top: 10px;
   width: fit-content;
   padding-left: 10px;
@@ -756,7 +754,6 @@ body {
   margin-bottom: 15px;
   margin-top: 10px;
   border: none;
-  align-self: center;
 }
 .btn-cta img {
   margin-left: 2px;
